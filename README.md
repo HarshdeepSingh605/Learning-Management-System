@@ -1,228 +1,130 @@
-🎓 Web-Based Learning Management System (LMS)
+# 🎓 Web-Based Learning Management System (LMS)
 
-A full-stack web application for content delivery, student progress tracking, and performance analysis.
+A full-stack web application for content delivery, student progress
+tracking, and performance analysis.
 
-This system enables teachers to manage courses and assignments, students to access learning materials and track progress, and administrators to monitor overall performance.
+------------------------------------------------------------------------
 
-📌 Project Overview
+## 📌 Project Overview
 
-The Learning Management System (LMS) provides:
+This Learning Management System (LMS) enables:
 
-📚 Course creation and management
+-   Teachers to create and manage courses
+-   Students to access learning materials and track progress
+-   Administrators to monitor overall system performance
 
-📝 Assignment and quiz management
+------------------------------------------------------------------------
 
-📊 Student progress tracking
+## 🚀 Features
 
-📈 Performance analytics and reports
+### 👨‍🎓 Student
 
-🔐 Secure role-based authentication
+-   Register / Login
+-   Enroll in courses
+-   Access lessons (video, PDF, notes)
+-   Submit assignments
+-   Attempt quizzes
+-   View grades and progress reports
 
-🚀 Features
-👨‍🎓 Student
+### 👩‍🏫 Teacher
 
-Register/Login
+-   Create and manage courses
+-   Upload learning materials
+-   Create assignments and quizzes
+-   Evaluate submissions
+-   Monitor student progress
 
-Enroll in courses
+### 🛠 Admin
 
-Access lessons (video, PDF, notes)
+-   Manage users
+-   Manage courses
+-   Generate reports
+-   Monitor platform activity
 
-Submit assignments
+------------------------------------------------------------------------
 
-Attempt quizzes
+## 🏗 Tech Stack
 
-View grades and progress reports
+### Frontend
 
-👩‍🏫 Teacher
+-   React
+-   React Router
+-   Axios
 
-Create and manage courses
+### Backend
 
-Upload learning materials
+-   Spring Boot
+-   REST APIs
+-   JWT Authentication
+-   Spring Security
 
-Create assignments and quizzes
+### Database
 
-Evaluate submissions
+-   MySQL
 
-Monitor student progress
+------------------------------------------------------------------------
 
-🛠 Admin
+## 📂 Project Structure
 
-Manage users
+lms-system/ │ ├── frontend/ \# React frontend ├── backend/ \# Spring
+Boot backend ├── docs/ \# UML, DFD, Architecture diagrams ├── database/
+\# SQL scripts ├── README.md
 
-Manage courses
+------------------------------------------------------------------------
 
-Generate system-wide reports
+## 🔧 Installation
 
-Monitor platform activity
+### 1️⃣ Clone Repository
 
-🏗 System Architecture
-
-This project follows a 3-Tier Architecture:
-
-Frontend (Client Layer) – React-based UI
-
-Backend (Application Layer) – Node.js + Express REST API
-
-Database (Data Layer) – MongoDB
-
-🛠 Tech Stack
-Frontend
-
-React
-
-React Router
-
-Axios
-
-CSS / Tailwind (optional)
-
-Backend
-
-Node.js
-
-Express.js
-
-JWT Authentication
-
-Bcrypt (Password Hashing)
-
-Database
-
-MongoDB
-
-Mongoose ODM
-
-Deployment (Optional)
-
-Render / Vercel / AWS
-
-Docker (if containerized)
-
-📂 Folder Structure
-lms-system/
-│
-├── frontend/        # React frontend
-├── backend/         # Express backend
-├── docs/            # UML, DFD, Architecture diagrams
-├── database/        # Seed & migrations
-├── uploads/         # Assignment submissions
-├── tests/           # Unit & integration tests
-├── .env.example
-└── README.md
-🔑 Installation Guide
-1️⃣ Clone Repository
 git clone https://github.com/your-username/lms-system.git
-cd lms-system
-2️⃣ Backend Setup
-cd backend
-npm install
 
-Create a .env file:
+### 2️⃣ Backend Setup (Spring Boot)
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+-   Configure MySQL in application.properties
+-   Run using: mvn spring-boot:run
 
-Run backend:
+Backend runs on: http://localhost:8080
 
-npm run dev
-3️⃣ Frontend Setup
-cd frontend
-npm install
-npm start
-🔐 Authentication & Authorization
+### 3️⃣ Frontend Setup (React)
 
-JWT-based authentication
+cd frontend npm install npm start
 
-Role-based access control
+Frontend runs on: http://localhost:3000
 
-Secure password hashing
+------------------------------------------------------------------------
 
-Protected API routes
+## 🔐 Security
 
-📊 Core Modules
-1. Content Delivery
+-   JWT-based authentication
+-   Role-based access control
+-   Password encryption
+-   Secure REST endpoints
 
-Course management
+------------------------------------------------------------------------
 
-Lesson uploads
+## 📊 Core Modules
 
-Assignment and quiz system
+1.  Content Delivery
+2.  Student Progress Tracking
+3.  Performance Analysis
 
-2. Student Progress Tracking
+------------------------------------------------------------------------
 
-Completion percentage
+## 📈 Future Enhancements
 
-Submission tracking
+-   AI-based performance analytics
+-   Gamification features
+-   Live class integration
+-   Certificate generation
+-   Cloud deployment
 
-Quiz attempt tracking
+------------------------------------------------------------------------
 
-3. Performance Analysis
+## 👨‍💻 Author
 
-Grade calculation
+Harshdeep Singh\
+Bachelor's Degree Project
 
-Performance trends
+------------------------------------------------------------------------
 
-Analytics dashboard
-
-🧪 Testing
-
-To run tests:
-
-npm test
-
-Tests include:
-
-API endpoint validation
-
-Authentication testing
-
-Business logic testing
-
-📈 Future Enhancements
-
-AI-based performance prediction
-
-Gamification (badges, leaderboard)
-
-Live class integration
-
-Discussion forum
-
-Certificate generation
-
-Microservices architecture upgrade
-
-📚 Documentation
-
-System design documents available in /docs:
-
-UML Class Diagram
-
-Data Flow Diagram (DFD)
-
-System Architecture Diagram
-
-ER Diagram
-
-🤝 Contribution
-
-Contributions are welcome.
-
-Fork the project
-
-Create a feature branch
-
-Commit changes
-
-Submit a Pull Request
-
-📄 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Harshdeep Singh
-Bachelor’s Degree Project
-Web-Based LMS System
+Licensed under MIT License.
