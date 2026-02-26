@@ -66,9 +66,12 @@ This Learning Management System (LMS) enables:
 
 ## 📂 Project Structure
 
-lms-system/ │ ├── frontend/ \# React frontend ├── backend/ \# Spring
-Boot backend ├── docs/ \# UML, DFD, Architecture diagrams ├── database/
-\# SQL scripts ├── README.md
+lms-system/ 
+├── frontend/ \# React frontend 
+├── backend/  \# Spring Boot backend 
+├── docs/     \# UML, DFD, Architecture diagrams 
+├── database/ \# SQL scripts 
+├── README.md
 
 ------------------------------------------------------------------------
 
@@ -76,7 +79,7 @@ Boot backend ├── docs/ \# UML, DFD, Architecture diagrams ├── databa
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/lms-system.git
+git clone https://github.com/HarshdeepSingh605/Learning-Management-System.git
 
 ### 2️⃣ Backend Setup (Spring Boot)
 
@@ -117,13 +120,6 @@ Frontend runs on: http://localhost:3000
 -   Live class integration
 -   Certificate generation
 -   Cloud deployment
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-Harshdeep Singh\
-Bachelor's Degree Project
 
 ------------------------------------------------------------------------
 
