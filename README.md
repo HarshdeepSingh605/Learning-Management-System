@@ -43,38 +43,6 @@ This Learning Management System (LMS) enables:
 
 ------------------------------------------------------------------------
 
-## 🏗 Tech Stack
-
-### Frontend
-
--   React
--   React Router
--   Axios
-
-### Backend
-
--   Spring Boot
--   REST APIs
--   JWT Authentication
--   Spring Security
-
-### Database
-
--   MySQL
-
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-lms-system/ 
-├── frontend/ \# React frontend 
-├── backend/  \# Spring Boot backend 
-├── docs/     \# UML, DFD, Architecture diagrams 
-├── database/ \# SQL scripts 
-├── README.md
-
-------------------------------------------------------------------------
-
 ## 🔧 Installation
 
 ### 1️⃣ Clone Repository
@@ -96,14 +64,6 @@ Frontend runs on: http://localhost:3000
 
 ------------------------------------------------------------------------
 
-## 🔐 Security
-
--   JWT-based authentication
--   Role-based access control
--   Password encryption
--   Secure REST endpoints
-
-------------------------------------------------------------------------
 
 ## 📊 Core Modules
 
